@@ -1,2 +1,2 @@
 # streamlit-crypto-analysis
-## This application analysis crypto currencies and portfolios
+## This application analyzes crypto currencies and portfolios
