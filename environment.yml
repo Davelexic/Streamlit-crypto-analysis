@@ -157,4 +157,3 @@ dependencies:
     - urllib3==1.26.5
     - validators==0.18.2
     - watchdog==2.1.2
-prefix: C:\Users\dschi\anaconda3\envs\streamlit
