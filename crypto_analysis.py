@@ -357,11 +357,10 @@ with st.form("Portfolio"):
         port_ci_upper = round(portfolio_tbl[9]*50000,2)
         port_ci_min = round(portfolio_tbl[3]*50000,2)
         # Print results
-        dist_plot = MC_portfolio.plot_distribution()
         st.write(f"There is a 95% chance that an initial investment of $50,000 in the portfolio"
         f" over the next 5 years will end within in the range of"
         f" ${port_ci_lower} and ${port_ci_upper}. and a minimum return of ${port_ci_min}")
-        st.write(portfolio_tbl)
+        # st.write(portfolio_tbl)
         st.balloons() 
         
         
